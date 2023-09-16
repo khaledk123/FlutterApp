@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "159924081598",
+    "project_id": "survivalapplication-d99f0",
+    "storage_bucket": "survivalapplication-d99f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159924081598:android:c125fbf539d48e32ef9fef",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159924081598-daomqhmhpvhgg7mj00l6jqbnavtph0ns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-BqWOUmvhISq-IcUlkMllo8WcQMB2jTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159924081598-daomqhmhpvhgg7mj00l6jqbnavtph0ns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

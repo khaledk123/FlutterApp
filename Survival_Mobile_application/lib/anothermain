@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+
+import 'tabs.dart';
+
+void main() {
+  runApp( MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'FlutterChat',
+      theme: ThemeData(
+        primarySwatch: Colors.amber,
+        backgroundColor: Colors.pink,
+        colorScheme: ColorScheme.fromSwatch(accentColor: Colors.deepPurple),
+        // ignore: deprecated_member_use
+        accentColorBrightness: Brightness.dark,
+        buttonTheme: ButtonTheme.of(context).copyWith(
+            buttonColor: Colors.pink,
+            textTheme: ButtonTextTheme.primary,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            )),
+      ),
+      home: TabsScreen(),
+    );
+  }
+}
